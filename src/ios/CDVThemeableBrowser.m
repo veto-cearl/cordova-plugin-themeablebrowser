@@ -212,7 +212,7 @@
     // and feel that is consistent across platforms. We'd do this hack to
     // minimize changes from the original ThemeableBrowser so when merge from the
     // ThemeableBrowser is needed, it wouldn't be super pain in the ass.
-    browserOptions.toolbarposition = kThemeableBrowserToolbarBarPositionTop;
+    //browserOptions.toolbarposition = kThemeableBrowserToolbarBarPositionBottom;
 
     if (browserOptions.clearcache) {
         NSHTTPCookie *cookie;
