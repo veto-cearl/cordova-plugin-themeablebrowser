@@ -27,8 +27,8 @@
     <description>Cordova ThemeableBrowser Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,in,app,browser,themeablebrowser</keywords>
-    <repo>https://github.com/initialxy/cordova-plugin-themeablebrowser.git</repo>
-    <issue>https://github.com/initialxy/cordova-plugin-themeablebrowser/issues</issue>
+    <repo>https://github.com/veto-cearl/cordova-plugin-themeablebrowser.git</repo>
+    <issue>https://github.com/veto-cearl/cordova-plugin-themeablebrowser/issues</issue>
 
     <engines>
       <engine name="cordova" version=">=3.1.0" />
@@ -41,14 +41,14 @@
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ThemeableBrowser">
-                <param name="android-package" value="com.initialxy.cordova.themeablebrowser.ThemeableBrowser"/>
+                <param name="android-package" value="com.veto-cearl.cordova.themeablebrowser.ThemeableBrowser"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/veto-cearl/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/veto-cearl/cordova/themeablebrowser" />
+        <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/veto-cearl/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/veto-cearl/cordova/themeablebrowser" />
     </platform>
 
     <!-- ios -->
