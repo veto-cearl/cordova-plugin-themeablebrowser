@@ -905,6 +905,7 @@
  * bundle, we can't tell what densitiy the image is supposed to be so it needs to be given
  * explicitly.
  */
+// Removed www from path on line 916 to work with Capacitor.
 - (UIImage*) getImage:(NSString*) name altPath:(NSString*) altPath altDensity:(CGFloat) altDensity
 {
     UIImage* result = nil;
@@ -912,7 +913,7 @@
         result = [UIImage imageNamed:name];
     } else if (altPath) {
         NSString* path = [[[NSBundle mainBundle] bundlePath]
-                          stringByAppendingPathComponent:[NSString pathWithComponents:@[@"www", altPath]]];
+                          stringByAppendingPathComponent:[NSString pathWithComponents:@[@"", altPath]]];
         if (!altDensity) {
             altDensity = 1.0;
         }
